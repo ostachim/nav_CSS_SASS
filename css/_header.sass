@@ -1,0 +1,26 @@
+
+body
+    background-color: gray
+    margin: 0
+    padding: 0 
+ul
+    display: flex
+    cursor: pointer
+    list-style: none
+    width: 100vw
+
+    li 
+        
+        justify-content: space-around
+        flex-grow: 1
+
+        a
+            color: $font-color
+            text-decoration: none
+            font-family: arial
+            text-transform: uppercase
+            +button()
+            transition: 0.5s
+
+            &:hover
+                background-color: #333333

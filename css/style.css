@@ -1,0 +1,42 @@
+body {
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  list-style: none;
+  width: 100vw;
+}
+
+ul li {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: arial;
+  text-transform: uppercase;
+  display: block;
+  width: 15vw;
+  height: 45px;
+  background-color: black;
+  text-align: center;
+  line-height: 45px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+ul li a:hover {
+  background-color: #333333;
+}
+/*# sourceMappingURL=style.css.map */
